@@ -1,0 +1,13 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thallesManjaterra <thalles.manjaterra@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
