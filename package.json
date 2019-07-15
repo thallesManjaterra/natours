@@ -1,13 +1,18 @@
 {
-  "name": "natours",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "thallesManjaterra <thalles.manjaterra@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "compile:sass": "node-sass scss/main.scss css/style.css -w"
-  },
-  "devDependencies": {
-    "node-sass": "^4.12.0"
-  }
+    "name": "natours",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "thallesManjaterra <!-- <thalles.manjaterra@gmail.com> -->",
+    "license": "MIT",
+    "scripts": {
+        "watch:sass": "node-sass -w scss/main.scss css/style.css",
+        "devserver": "live-server",
+        "start": "npm-run-all --parallel devserver watch:sass"
+    },
+    "devDependencies": {
+        "node-sass": "^4.12.0"
+    },
+    "dependencies": {
+        "npm-run-all": "^4.1.5"
+    }
 }
