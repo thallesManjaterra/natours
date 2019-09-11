@@ -65,7 +65,7 @@
                     <span class="heading-primary--main">Outdoors</span> 
                     <span class="heading-primary--sub">is where life happens</span > 
                 </h1> 
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a> 
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a> 
             </div> 
         </header> 
 
@@ -135,7 +135,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -169,7 +169,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a class="btn btn--white" href="#">Book now</a>
+                                    <a class="btn btn--white" href="#popup">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -201,7 +201,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a class="btn btn--white" href="#">Book now</a>
+                                    <a class="btn btn--white" href="#popup">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a class="btn btn--white" href="#">Book now</a>
+                                    <a class="btn btn--white" href="#popup">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -346,45 +346,70 @@
                 </div>
             </section>
 
-            <footer class="footer">
-                <div class="footer__logo-box">
-                    <img src="img/logo-green-2x.png" alt="Full Logo" class="footer__logo">
-                </div>
-                <div class="row">
-                    <div class="footer__navigation">
-                        <ul class="footer__list">
-                            <li class="footer__item">
-                                <a class="footer__link" href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="#">
-                                    Contact us
-                                </a>
-                            </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="#">
-                                    Carrers
-                                </a>
-                            </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="#">
-                                    Privacy policy
-                                </a>
-                            </li>
-                            <li class="footer__item">
-                                <a class="footer__link" href="#">
-                                    Terms
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </footer>
-
         </main>
+
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="img/logo-green-2x.png" alt="Full Logo" class="footer__logo">
+            </div>
+            <div class="row">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Company
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Carrers
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Privacy policy
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                                Terms
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img class="popup__img" src="img/nat-8.jpg" alt="Tour photo">
+                    <img class="popup__img" src="img/nat-9.jpg" alt="Tour photo">
+                </div>
+                <div class="popup__right">
+                    <a class="popup__close" href="#section-tours">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">
+                        Start booking now
+                    </h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">
+                        Important &ndash; Please read this terms before booking
+                    </h3>
+                    <p class="popup__text">
+                    Dolor enim autem aspernatur soluta impedit! Quia sit facere praesentium ex iste. Adipisci quaerat autem repellendus accusantium cumque Ad doloribus fuga fuga recusandae soluta? Aliquam tempore dolor consectetur eius quisquamlorem Elit fugit explicabo quasi voluptates quisquam. Obcaecati eos reprehenderit iste exercitationem libero quasi Blanditiis quam animi voluptates cum consequatur minus Aperiam sequi voluptatem optio magni exercitationem Repellat voluptate excepturi dolorem! Ipsum et corrupti sunt cupiditate fugit. Alias mollitia maiores earum voluptas enim. Alias labore distinctio commodi labore blanditiis. Aperiam natus veniam modi pariatur quidem Odit provident repudiandae minus veritatis quis?
+                    </p>
+                    <a class="btn btn--green" href="#">
+                        Book now
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
 
