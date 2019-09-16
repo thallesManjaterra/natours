@@ -28,6 +28,17 @@
         transform: translate(-50%, -50%) scale(1);
     }
 
+    @include respond(tab-port) {
+        &:target {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        &:target &__content {
+            opacity: 0;
+        }
+    }
+
     &__close {
         &:link,
         &:visited {
